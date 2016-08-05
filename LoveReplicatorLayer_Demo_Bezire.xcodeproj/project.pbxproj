@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84077D951D547BE70059A1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077D941D547BE70059A1BF /* main.m */; };
+		84077D981D547BE70059A1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077D971D547BE70059A1BF /* AppDelegate.m */; };
+		84077D9B1D547BE70059A1BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077D9A1D547BE70059A1BF /* ViewController.m */; };
+		84077D9E1D547BE70059A1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84077D9C1D547BE70059A1BF /* Main.storyboard */; };
+		84077DA01D547BE70059A1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84077D9F1D547BE70059A1BF /* Assets.xcassets */; };
+		84077DA31D547BE70059A1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84077DA11D547BE70059A1BF /* LaunchScreen.storyboard */; };
+		84077DAE1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077DAD1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.m */; };
+		84077DB91D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077DB81D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84077DAA1D547BE70059A1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84077D881D547BE70059A1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84077D8F1D547BE70059A1BF;
+			remoteInfo = LoveReplicatorLayer_Demo_Bezire;
+		};
+		84077DB51D547BE70059A1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84077D881D547BE70059A1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84077D8F1D547BE70059A1BF;
+			remoteInfo = LoveReplicatorLayer_Demo_Bezire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84077D901D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveReplicatorLayer_Demo_Bezire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84077D941D547BE70059A1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84077D961D547BE70059A1BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84077D971D547BE70059A1BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84077D991D547BE70059A1BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84077D9A1D547BE70059A1BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84077D9D1D547BE70059A1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84077D9F1D547BE70059A1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84077DA21D547BE70059A1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84077DA41D547BE70059A1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84077DA91D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveReplicatorLayer_Demo_BezireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84077DAD1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveReplicatorLayer_Demo_BezireTests.m; sourceTree = "<group>"; };
+		84077DAF1D547BE70059A1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84077DB41D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveReplicatorLayer_Demo_BezireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84077DB81D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveReplicatorLayer_Demo_BezireUITests.m; sourceTree = "<group>"; };
+		84077DBA1D547BE70059A1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84077D8D1D547BE70059A1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DA61D547BE70059A1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DB11D547BE70059A1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84077D871D547BE70059A1BF = {
+			isa = PBXGroup;
+			children = (
+				84077D921D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */,
+				84077DAC1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests */,
+				84077DB71D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests */,
+				84077D911D547BE70059A1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84077D911D547BE70059A1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84077D901D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire.app */,
+				84077DA91D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.xctest */,
+				84077DB41D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84077D921D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */ = {
+			isa = PBXGroup;
+			children = (
+				84077D961D547BE70059A1BF /* AppDelegate.h */,
+				84077D971D547BE70059A1BF /* AppDelegate.m */,
+				84077D991D547BE70059A1BF /* ViewController.h */,
+				84077D9A1D547BE70059A1BF /* ViewController.m */,
+				84077D9C1D547BE70059A1BF /* Main.storyboard */,
+				84077D9F1D547BE70059A1BF /* Assets.xcassets */,
+				84077DA11D547BE70059A1BF /* LaunchScreen.storyboard */,
+				84077DA41D547BE70059A1BF /* Info.plist */,
+				84077D931D547BE70059A1BF /* Supporting Files */,
+			);
+			path = LoveReplicatorLayer_Demo_Bezire;
+			sourceTree = "<group>";
+		};
+		84077D931D547BE70059A1BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84077D941D547BE70059A1BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84077DAC1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests */ = {
+			isa = PBXGroup;
+			children = (
+				84077DAD1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.m */,
+				84077DAF1D547BE70059A1BF /* Info.plist */,
+			);
+			path = LoveReplicatorLayer_Demo_BezireTests;
+			sourceTree = "<group>";
+		};
+		84077DB71D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84077DB81D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.m */,
+				84077DBA1D547BE70059A1BF /* Info.plist */,
+			);
+			path = LoveReplicatorLayer_Demo_BezireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84077D8F1D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84077DBD1D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_Bezire" */;
+			buildPhases = (
+				84077D8C1D547BE70059A1BF /* Sources */,
+				84077D8D1D547BE70059A1BF /* Frameworks */,
+				84077D8E1D547BE70059A1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveReplicatorLayer_Demo_Bezire;
+			productName = LoveReplicatorLayer_Demo_Bezire;
+			productReference = 84077D901D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84077DA81D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84077DC01D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_BezireTests" */;
+			buildPhases = (
+				84077DA51D547BE70059A1BF /* Sources */,
+				84077DA61D547BE70059A1BF /* Frameworks */,
+				84077DA71D547BE70059A1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84077DAB1D547BE70059A1BF /* PBXTargetDependency */,
+			);
+			name = LoveReplicatorLayer_Demo_BezireTests;
+			productName = LoveReplicatorLayer_Demo_BezireTests;
+			productReference = 84077DA91D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84077DB31D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84077DC31D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_BezireUITests" */;
+			buildPhases = (
+				84077DB01D547BE70059A1BF /* Sources */,
+				84077DB11D547BE70059A1BF /* Frameworks */,
+				84077DB21D547BE70059A1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84077DB61D547BE70059A1BF /* PBXTargetDependency */,
+			);
+			name = LoveReplicatorLayer_Demo_BezireUITests;
+			productName = LoveReplicatorLayer_Demo_BezireUITests;
+			productReference = 84077DB41D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84077D881D547BE70059A1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					84077D8F1D547BE70059A1BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					84077DA81D547BE70059A1BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84077D8F1D547BE70059A1BF;
+					};
+					84077DB31D547BE70059A1BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84077D8F1D547BE70059A1BF;
+					};
+				};
+			};
+			buildConfigurationList = 84077D8B1D547BE70059A1BF /* Build configuration list for PBXProject "LoveReplicatorLayer_Demo_Bezire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84077D871D547BE70059A1BF;
+			productRefGroup = 84077D911D547BE70059A1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84077D8F1D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */,
+				84077DA81D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests */,
+				84077DB31D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84077D8E1D547BE70059A1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84077DA31D547BE70059A1BF /* LaunchScreen.storyboard in Resources */,
+				84077DA01D547BE70059A1BF /* Assets.xcassets in Resources */,
+				84077D9E1D547BE70059A1BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DA71D547BE70059A1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DB21D547BE70059A1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84077D8C1D547BE70059A1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84077D9B1D547BE70059A1BF /* ViewController.m in Sources */,
+				84077D981D547BE70059A1BF /* AppDelegate.m in Sources */,
+				84077D951D547BE70059A1BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DA51D547BE70059A1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84077DAE1D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84077DB01D547BE70059A1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84077DB91D547BE70059A1BF /* LoveReplicatorLayer_Demo_BezireUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84077DAB1D547BE70059A1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84077D8F1D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */;
+			targetProxy = 84077DAA1D547BE70059A1BF /* PBXContainerItemProxy */;
+		};
+		84077DB61D547BE70059A1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84077D8F1D547BE70059A1BF /* LoveReplicatorLayer_Demo_Bezire */;
+			targetProxy = 84077DB51D547BE70059A1BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84077D9C1D547BE70059A1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84077D9D1D547BE70059A1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84077DA11D547BE70059A1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84077DA21D547BE70059A1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84077DBB1D547BE70059A1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84077DBC1D547BE70059A1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84077DBE1D547BE70059A1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_Bezire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-Bezire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84077DBF1D547BE70059A1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_Bezire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-Bezire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84077DC11D547BE70059A1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_BezireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-BezireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveReplicatorLayer_Demo_Bezire.app/LoveReplicatorLayer_Demo_Bezire";
+			};
+			name = Debug;
+		};
+		84077DC21D547BE70059A1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_BezireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-BezireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveReplicatorLayer_Demo_Bezire.app/LoveReplicatorLayer_Demo_Bezire";
+			};
+			name = Release;
+		};
+		84077DC41D547BE70059A1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_BezireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-BezireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveReplicatorLayer_Demo_Bezire;
+			};
+			name = Debug;
+		};
+		84077DC51D547BE70059A1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveReplicatorLayer_Demo_BezireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.LoveReplicatorLayer-Demo-BezireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveReplicatorLayer_Demo_Bezire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84077D8B1D547BE70059A1BF /* Build configuration list for PBXProject "LoveReplicatorLayer_Demo_Bezire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84077DBB1D547BE70059A1BF /* Debug */,
+				84077DBC1D547BE70059A1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84077DBD1D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_Bezire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84077DBE1D547BE70059A1BF /* Debug */,
+				84077DBF1D547BE70059A1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84077DC01D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_BezireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84077DC11D547BE70059A1BF /* Debug */,
+				84077DC21D547BE70059A1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84077DC31D547BE70059A1BF /* Build configuration list for PBXNativeTarget "LoveReplicatorLayer_Demo_BezireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84077DC41D547BE70059A1BF /* Debug */,
+				84077DC51D547BE70059A1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84077D881D547BE70059A1BF /* Project object */;
+}
